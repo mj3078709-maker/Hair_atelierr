@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>HAIR ATELIERR | Premium Hair & Beauty</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, sans-serif;
+}
+
+body{
+    background:#050505;
+    color:#fff;
+    line-height:1.6;
+}
+
+header{
+    min-height:100vh;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    text-align:center;
+    padding:30px;
+    background:
+    radial-gradient(circle at top,#2a2415 0%,#080808 45%,#050505 100%);
+}
+
+.logo{
+    font-size:42px;
+    letter-spacing:6px;
+    color:#d4af37;
+    font-weight:bold;
+}
+
+.tagline{
+    margin:15px 0 30px;
+    color:#ddd;
+    font-size:17px;
+}
+
+.btn{
+    display:inline-block;
+    padding:14px 25px;
+    margin:7px;
+    border-radius:30px;
+    text-decoration:none;
+    font-weight:bold;
+    transition:.3s;
+}
+
+.gold{
+    background:#d4af37;
+    color:#000;
+}
+
+.outline{
+    border:1px solid #d4af37;
+    color:#d4af37;
+}
+
+.btn:hover{
+    transform:scale(1.05);
+}
+
+section{
+    padding:70px 20px;
+    max-width:1100px;
+    margin:auto;
+}
+
+.title{
+    text-align:center;
+    color:#d4af37;
+    font-size:32px;
+    margin-bottom:35px;
+}
+
+.about{
+    text-align:center;
+    max-width:750px;
+    margin:auto;
+    color:#ccc;
+}
+
+.services{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+    gap:18px;
+}
+
+.card{
+    background:#111;
+    border:1px solid #292929;
+    border-radius:15px;
+    padding:25px;
+    text-align:center;
+}
+
+.card h3{
+    color:#d4af37;
+    margin-bottom:8px;
+}
+
+.price{
+    color:#fff;
+    font-weight:bold;
+}
+
+.offer{
+    background:linear-gradient(135deg,#17130a,#0c0c0c);
+    border:1px solid #d4af37;
+    border-radius:20px;
+    padding:35px;
+    text-align:center;
+}
+
+.offer h2{
+    color:#d4af37;
+    margin-bottom:10px;
+}
+
+.contact{
+    text-align:center;
+}
+
+footer{
+    border-top:1px solid #222;
+    padding:25px;
+    text-align:center;
+    color:#888;
+    font-size:14px;
+}
+
+.social{
+    color:#d4af37;
+    text-decoration:none;
+}
+
+@media(max-width:600px){
+    .logo{
+        font-size:30px;
+        letter-spacing:4px;
+    }
+
+    .title{
+        font-size:27px;
+    }
+}
+</style>
+</head>
+
+<body>
+
+<header>
+<div>
+    <div class="logo">HAIR ATELIERR</div>
+
+    <p class="tagline">
+        Premium Hair • Skin • Styling<br>
+        Freelance Home Service
+    </p>
+
+    <a class="btn gold"
+       href="https://wa.me/919041715796?text=Hi%20HAIR%20ATELIERR,%20I%20want%20to%20book%20an%20appointment.">
+       BOOK APPOINTMENT
+    </a>
+
+    <a class="btn outline"
+       href="https://www.instagram.com/hair_atelierr/">
+       INSTAGRAM
+    </a>
+</div>
+</header>
+
+
+<section>
+    <h2 class="title">ABOUT HAIR ATELIERR</h2>
+
+    <p class="about">
+        Bringing premium hair styling and beauty services directly to you.
+        Personalized consultation, professional techniques and a luxury
+        experience — wherever you are.
+    </p>
+</section>
+
+
+<section>
+    <h2 class="title">OUR SERVICES</h2>
+
+    <div class="services">
+
+        <div class="card">
+            <h3>Keratin</h3>
+            <p class="price">₹2500 onwards</p>
+        </div>
+
+        <div class="card">
+            <h3>Botox Treatment</h3>
+            <p class="price">₹3500 onwards</p>
+        </div>
+
+        <div class="card">
+            <h3>Nanoplastia</h3>
+            <p class="price">₹4000 onwards</p>
+        </div>
+
+        <div class="card">
+            <h3>Zap Treatment</h3>
+            <p class="price">₹4500 onwards</p>
+        </div>
+
+        <div class="card">
+            <h3>Smoothening</h3>
+            <p class="price">₹2000 onwards</p>
+        </div>
+
+        <div class="card">
+            <h3>Hair Colour</h3>
+            <p class="price">₹1500 onwards</p>
+        </div>
+
+        <div class="card">
+            <h3>Highlights + Global Colour</h3>
+            <p class="price">₹4500 onwards</p>
+        </div>
+
+        <div class="card">
+            <h3>Haircut</h3>
+            <p class="price">₹400 onwards</p>
+        </div>
+
+    </div>
+</section>
+
+
+<section>
+    <div class="offer">
+        <h2>🎁 EVERY ₹2500+ BILL</h2>
+        <p>
+            Get a FREE GIFT CARD from HAIR ATELIERR.
+        </p>
+
+        <br>
+
+        <a class="btn gold"
+           href="https://wa.me/919041715796?text=Hi%20HAIR%20ATELIERR,%20I%20want%20to%20know%20about%20the%20current%20offers.">
+           CLAIM YOUR OFFER
+        </a>
+    </div>
+</section>
+
+
+<section>
+    <div class="contact">
+
+        <h2 class="title">BOOK YOUR APPOINTMENT</h2>
+
+        <p>Premium hair services at your convenience.</p>
+
+        <br>
+
+        <p>📞 9041715796</p>
+        <p>📞 7837156699</p>
+
+        <br>
+
+        <a class="btn gold"
+           href="https://wa.me/919041715796?text=Hi%20HAIR%20ATELIERR,%20I%20want%20to%20book%20an%20appointment.">
+           WHATSAPP US
+        </a>
+
+        <a class="btn outline"
+           href="https://www.instagram.com/hair_atelierr/">
+           FOLLOW ON INSTAGRAM
+        </a>
+
+    </div>
+</section>
+
+
+<footer>
+    © 2026 HAIR ATELIERR. All Rights Reserved.
+</footer>
+
+</body>
+</html>
